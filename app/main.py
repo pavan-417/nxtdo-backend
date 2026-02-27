@@ -79,7 +79,7 @@ def create_task(task: TaskCreate):
         raise HTTPException(status_code=500, detail=str(e))
 @app.get("/about",response_class=PlainTextResponse)
 def about_backend():
-    return "This is all backend"
+    return "This is all about backend"
 @app.get("/about",response_class=PlainTextResponse)
 def about_backend():
     return "This is all backend"
